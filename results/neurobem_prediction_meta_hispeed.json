@@ -1,0 +1,18 @@
+{
+  "c_t": 1.5111797171704222e-06,
+  "modes": [
+    "nominal",
+    "residual",
+    "dob",
+    "neurobem-ref"
+  ],
+  "n_train_segments": 80,
+  "n_test_segments": 13,
+  "n_train_samples": 150000,
+  "epochs": 50,
+  "dob_tau": 0.05,
+  "speed_min": 5.0,
+  "bemnn_dir": "C:\\Users\\jkurz\\OneDrive - The University of Waikato\\Supervision\\Usama\\residual_repo\\data\\neurobem\\bem+nn",
+  "residual": "MLP force/torque residual; features=vel_b+omega+motors",
+  "note": "Attitude from measured quaternion during rollout (logged-input). neurobem-ref uses published bem+nn wrench (pred+res), not our learner."
+}

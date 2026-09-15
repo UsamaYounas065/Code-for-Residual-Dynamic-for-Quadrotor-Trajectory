@@ -1,0 +1,9 @@
+{
+  "c_t": 1.472272847629924e-06,
+  "n_train_segments": 8,
+  "n_test_segments": 3,
+  "n_train_samples": 5000,
+  "epochs": 5,
+  "dob_tau": 0.05,
+  "note": "Stub allocation for torques; attitude uses measured quat during rollout (logged-input open-loop). Refine with NeuroBEM geometry or predictions/ forces when available."
+}

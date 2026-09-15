@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local / large artefacts
+.venv/
+venv/
+*.log
+results/*.log
+results/*_log.txt
+
+# NeuroBEM bulk data (download separately; see README)
+data/neurobem/processed_data/
+data/neurobem/bem+nn/
+data/neurobem/raw_data/
+data/neurobem/pdf/
+data/neurobem/code/
+*.zip
